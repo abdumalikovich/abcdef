@@ -12,7 +12,7 @@ app.use(cors())
 app.use(bodyParse.json())
 
 app.get("/", (req, res) => {
-    res.send("ready")
+    res.send("hello world!")
 })
 
 // Routes
